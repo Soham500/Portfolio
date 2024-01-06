@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recent Graduate Student Resume</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+            background-image: url('C:/Users/soham/OneDrive/Desktop/images.jpeg'); 
+            background-size: cover;
+            color: #d1cccc;
+        }
+        header {
+   
+    opacity: 50%;
+    position: relative;
+    box-shadow: 0 4px 17px rgb(255 255 255 / 10%);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 800;
+    opacity: 0;
+   ;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    gap: .6rem;
+    list-style-type: none;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+li a {
+    display: inline-block;
+    padding: .3rem 1rem;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.05rem;
+    font-weight: 600;
+    letter-spacing: .7px;
+    border-radius: 36px;
+    line-height: 2;
+    opacity: 60;
+;
+}
+
+li a.active,
+li a:hover {
+    color: blue;
+}
+
+#click {
+    display: none;
+}
+
+.menu {
+    display: none;
+}
+
+.mode i {
+    font-size: 1.4rem;
+    cursor: pointer;
+    color: rgb(4, 2, 4);
+    opacity: 60%;
+    animation: rightSideAni 1.5s ease forwards;
+}
+
+        h1, h2, h3 {
+            text-align: center;
+            color: #0066cc;
+        }
+
+        hr {
+            border: 1px solid #ddd;
+            margin: 20px 0;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        table, th, td {
+            border: 1px solid #333;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #eae6e6;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>SOHAM A N</h1>
+    <header class="container">
+        <div class="page-header">
+            <div class="logo">
+                <a>PORTFOLIO</a>
+            </div>
+            <input type="checkbox" id="click">
+
+            <label for="click" class="mainicon">
+                <div class="menu">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </label>
+            <ul>
+                <li><a href="index.html"  class="active">Home</a></li>
+                <li><a href="#p">Project</a></li>
+                
+                <li><a href="#c">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+
+    <h2>My LinkedIn Profile</h2>
+    <center>
+        <div><a href="https://www.linkedin.com/in/soham-a-n-18271429a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        <button onclick="toggleImage()">
+        <img src = "C:\Users\soham\Downloads\IMG-20230501-WA0000 (2)_page-0001.jpg" width="150">
+        </button></center>
+    </a>
+    </div>
+    
+
+    
+    <hr>
+
+    <h2>Education</h2>
+    <table>
+        <tr>
+            <th>Serial Number</th>
+            <th>Course</th>
+            <th>University</th>
+            <th>Graduation Year</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Bachelor Of Technology In Computer Science</td>
+            <td>RV University</td>
+            <td>2027</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Associate's Degree In Web Design</td>
+            <td>Community College</td>
+            <td>2030</td>
+        </tr>
+    </table>
+    <hr>
+
+    <h2>Work Experience</h2>
+    <h3>Junior Web Designer</h3>
+    <p>Inflow Technologies - Summer Internship</p>
+    <p>->Assisted in designing and maintaining company websites<br> ->optimizing user experience<br>  ->ensuring cross-browser
+        compatibility. <br> ->Collaborated with the development team to implement new features and improvements.</p>
+    <hr>
+
+    <h2>Skills</h2>
+    <ul>
+        <p>->HTML5, CSS3, JavaScript<br>
+        ->Responsive Web Design<br>
+        ->Adobe Creative Suite (Photoshop, Illustrator)</p>
+    </ul>
+    <hr>
+<div>
+    <section id="p">
+    <h2>Projects</h2>
+    <h3>Project 1: Portfolio Website</h3>
+    <p>->Designed and developed a personal portfolio website to showcase web design and development projects. <br> ->Used HTML,
+        CSS, and JavaScript to create a responsive and visually appealing site.</p>
+
+    <h3>Project 2: E-commerce Website Redesign</h3>
+    <p>->Collaborated with a team to redesign an e-commerce website<br> ->Focusing on improving the user interface<br>
+        ->Enhancing the overall user experience<br> ->Implemented new design elements and improved website performance.</p>
+    <hr>
+</section>
+
+</div>
+<div>
+    <section id="c">
+    <h2>Contact</h2>
+    <p>Email-id : Sohamnikkam500@gamil.com<br>
+       No : 8431016131
+    </p>
+    <hr>
+</section>
+</div>
+
+    <div class="footer">
+        &copy; 2023sohamnikkam
+    </div>
+
+    <script>
+        function toggleImage() {
+            var image = document.getElementById("linkedinImage");
+            if (image.style.display === "none") {
+                image.style.display = "block";
+            } else {
+                image.style.display = "none";
+            }
+        }
+    </script>
+    
+</body>
+
+</html>
